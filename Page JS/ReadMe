@@ -2,3 +2,7 @@ Projet en JS qui consistait a créer une page d'accueil animée en Javascript.
 Utilisation de QuerySelector et StaggerFrom 
 Voir la page ici : https://htmlpreview.github.io/?http://127.0.0.1:5501/index.html
 L'animation ne marche pas voir ici : https://gyazo.com/813854c10b11603e4ab8e4a066da7874
+
+Utilisation de document.querySelectorAll,
+document.querySelector,
+window.addEventListener
