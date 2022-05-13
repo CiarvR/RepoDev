@@ -1,0 +1,39 @@
+.contain {
+    height: 100%;
+}
+
+.BarrePanier {
+    background-color: darkgray;
+
+    height: 60px;
+    width: auto;
+
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+h3 {
+    text-align: center;
+    width: 400px;
+    border: solid;
+    padding: 10px;
+    box-shadow: rgb(97, 254, 0);
+}
+
+.produits {
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(201, 201, 201);
+}
+
+.underbutton {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+

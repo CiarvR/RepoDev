@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+
+
+.icone {
+    width: auto;
+    height: 32px;
+}
+
+.haut {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+

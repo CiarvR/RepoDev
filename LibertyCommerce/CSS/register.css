@@ -1,0 +1,29 @@
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.registerdiv {
+    animation: fadeIn 1s;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contain {
+    background-image: linear-gradient(#d3d3d3, darkgray, #393e46);
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}

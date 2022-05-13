@@ -1,0 +1,123 @@
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.catalogue {
+    background-color: #bcbcbc;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.pianoimg {
+    width: 400px;
+    height: auto;
+}
+
+.casqueimg{
+    width: auto;
+    height: 200px;
+}
+
+.accessoireimg {
+    width: auto;
+    height: 200px;
+}
+
+.courimg {
+    width: auto;
+    height: 200px;
+}
+
+.underheader {
+    height: 300px;
+}
+
+div.produitspace {
+    opacity: 90%;
+    border-radius: 5px;
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    animation: fadeIn 1s ;
+}
+
+div.produitspace:hover {
+    opacity: 100%;
+    width: 50%;
+    height: auto;
+    transition: 1s;
+}
+
+div.servicespace {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    animation: fadeIn 1s ;
+}
+
+div.underimg {
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(81, 174, 65);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+div.pianos {
+    padding-top: 20px;
+    margin-top: 30px;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    width: 100%;
+    height: 300px;
+}
+div.casques {
+    padding-top: 20px;
+    margin-top: 30px;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    width: 100%;
+    height: 300px;
+}
+div.accessoires {
+    padding-top: 20px;
+    margin-top: 30px;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+}
+div.cours {
+    padding-top: 20px;
+    margin-top: 30px;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    width: auto;
+    height: 100px;
+}
+

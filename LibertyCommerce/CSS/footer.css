@@ -1,0 +1,15 @@
+footer {
+    background-color: #209c12;
+    height: 80px;
+    align-items: center;
+}
+
+.icone {
+    width: auto;
+    height: 32px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}

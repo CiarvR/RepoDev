@@ -1,0 +1,16 @@
+.indexcontain {
+    background-color: #fffdfd;
+}
+
+.underheader {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.underheaderImg {
+    width: 1900px;
+    height: auto;
+    padding-bottom: 50px;
+}
