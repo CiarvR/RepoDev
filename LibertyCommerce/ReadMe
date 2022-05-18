@@ -1,0 +1,3 @@
+Voici un projet Liberty Commerce crée pour un devoir de l'école 
+Le but était de créer un projet de site E-commerce avec Laravel avec ajout d'Admin, un admin peut ajouter un produit sans acceder au code, l'utilisateur peut se créer 
+un compte grâce a une base de donnée gérée sur MySQL. 
